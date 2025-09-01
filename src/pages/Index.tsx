@@ -84,7 +84,7 @@ const Index = () => {
                         className="h-12 text-base border-gray-200 focus:border-primary"
                         maxLength={6}
                       />
-                      <p className="text-xs text-gray-500">Введите 6-значный код из приложения</p>
+                      <p className="text-xs text-gray-500">Введите 6-значный код из файла</p>
                     </div>
                   )}
                   
