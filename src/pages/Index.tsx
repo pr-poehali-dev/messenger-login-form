@@ -145,50 +145,6 @@ const Index = () => {
         {/* Дополнительные разделы */}
         <div className="space-y-6">
           
-          {/* Регистрация */}
-          <Card className="shadow-lg border-0 bg-white/70 backdrop-blur animate-slide-up">
-            <CardHeader>
-              <CardTitle className="flex items-center gap-2">
-                <Icon name="UserPlus" size={20} />
-                Регистрация
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <form onSubmit={handleRegister} className="space-y-3">
-                <Input
-                  type="text"
-                  placeholder="Имя пользователя"
-                  value={registerData.username}
-                  onChange={(e) => setRegisterData({...registerData, username: e.target.value})}
-                  className="h-10 text-sm"
-                />
-                <Input
-                  type="email"
-                  placeholder="Email"
-                  value={registerData.email}
-                  onChange={(e) => setRegisterData({...registerData, email: e.target.value})}
-                  className="h-10 text-sm"
-                />
-                <Input
-                  type="password"
-                  placeholder="Пароль"
-                  value={registerData.password}
-                  onChange={(e) => setRegisterData({...registerData, password: e.target.value})}
-                  className="h-10 text-sm"
-                />
-                <Input
-                  type="password"
-                  placeholder="Повторите пароль"
-                  value={registerData.confirmPassword}
-                  onChange={(e) => setRegisterData({...registerData, confirmPassword: e.target.value})}
-                  className="h-10 text-sm"
-                />
-                <Button type="submit" className="w-full h-10 text-sm">
-                  Зарегистрироваться
-                </Button>
-              </form>
-            </CardContent>
-          </Card>
 
           {/* Профиль пользователя */}
           <Card className="shadow-lg border-0 bg-white/70 backdrop-blur">
@@ -207,6 +163,7 @@ const Index = () => {
                 <div>
                   <p className="font-medium">Пользователь</p>
                   <p className="text-sm text-gray-500">user@example.com</p>
+                  <p className="text-xs text-gray-400">ООО "Технологии Будущего"</p>
                 </div>
               </div>
               
