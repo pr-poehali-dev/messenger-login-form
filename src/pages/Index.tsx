@@ -39,8 +39,12 @@ const Index = () => {
         <div className="lg:col-span-2">
           <Card className="w-full max-w-md mx-auto shadow-xl border-0 bg-white/80 backdrop-blur animate-fade-in">
             <CardHeader className="text-center pb-6">
-              <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-r from-primary to-blue-600 rounded-full flex items-center justify-center">
-                <Icon name="MessageCircle" size={32} className="text-white" />
+              <div className="w-32 h-16 mx-auto mb-4 flex items-center justify-center">
+                <img 
+                  src="https://cdn.poehali.dev/files/9a35d506-7523-43eb-b058-328f2eb9426c.png" 
+                  alt="МИАЦ Краснодарский край" 
+                  className="h-full w-auto object-contain"
+                />
               </div>
               <CardTitle className="text-2xl font-bold text-gray-900">ГБУЗ МИАЦ MAX</CardTitle>
               <p className="text-gray-600 text-sm">Войдите в аккаунт, используя 
