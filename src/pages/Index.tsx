@@ -46,7 +46,7 @@ const Index = () => {
                   className="h-full w-auto object-contain"
                 />
               </div>
-              <CardTitle className="text-2xl font-bold text-gray-900">ГБУЗ МИАЦ MAX</CardTitle>
+              <CardTitle className="text-2xl font-bold text-gray-900">ГБУЗ МИАЦ</CardTitle>
               <p className="text-gray-600 text-sm">Войдите в аккаунт, используя 
 учётную запись ActiveDirectory</p>
             </CardHeader>
