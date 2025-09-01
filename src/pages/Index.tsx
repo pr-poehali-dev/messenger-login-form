@@ -187,43 +187,6 @@ const Index = () => {
             </CardContent>
           </Card>
 
-          {/* Помощь и поддержка */}
-          <Card className="shadow-lg border-0 bg-white/70 backdrop-blur">
-            <CardHeader>
-              <CardTitle className="flex items-center gap-2">
-                <Icon name="HelpCircle" size={20} />
-                Помощь и поддержка
-              </CardTitle>
-            </CardHeader>
-            <CardContent className="space-y-3">
-              <div className="space-y-2">
-                <Button variant="ghost" className="w-full justify-start h-10">
-                  <Icon name="FileText" size={16} className="mr-2" />
-                  FAQ
-                </Button>
-                <Button variant="ghost" className="w-full justify-start h-10">
-                  <Icon name="MessageSquare" size={16} className="mr-2" />
-                  Чат поддержки
-                </Button>
-                <Button variant="ghost" className="w-full justify-start h-10">
-                  <Icon name="Phone" size={16} className="mr-2" />
-                  Горячая линия
-                </Button>
-                <Button variant="ghost" className="w-full justify-start h-10">
-                  <Icon name="Mail" size={16} className="mr-2" />
-                  Написать в поддержку
-                </Button>
-              </div>
-              
-              <Alert className="border-messenger-blue/20 bg-messenger-blue/10">
-                <Icon name="Info" size={16} />
-                <AlertDescription className="text-sm">
-                  Время ответа службы поддержки: до 2 часов в рабочее время
-                </AlertDescription>
-              </Alert>
-            </CardContent>
-          </Card>
-
           {/* Дополнительная безопасность */}
           <Card className="shadow-lg border-0 bg-white/70 backdrop-blur">
             <CardHeader>
@@ -261,6 +224,43 @@ const Index = () => {
                 <Icon name="Key" size={16} className="mr-2" />
                 Сменить пароль
               </Button>
+            </CardContent>
+          </Card>
+
+          {/* Помощь и поддержка */}
+          <Card className="shadow-lg border-0 bg-white/70 backdrop-blur">
+            <CardHeader>
+              <CardTitle className="flex items-center gap-2">
+                <Icon name="HelpCircle" size={20} />
+                Помощь и поддержка
+              </CardTitle>
+            </CardHeader>
+            <CardContent className="space-y-3">
+              <div className="space-y-2">
+                <Button variant="ghost" className="w-full justify-start h-10">
+                  <Icon name="FileText" size={16} className="mr-2" />
+                  FAQ
+                </Button>
+                <Button variant="ghost" className="w-full justify-start h-10">
+                  <Icon name="MessageSquare" size={16} className="mr-2" />
+                  Чат поддержки
+                </Button>
+                <Button variant="ghost" className="w-full justify-start h-10">
+                  <Icon name="Phone" size={16} className="mr-2" />
+                  Горячая линия
+                </Button>
+                <Button variant="ghost" className="w-full justify-start h-10">
+                  <Icon name="Mail" size={16} className="mr-2" />
+                  Написать в поддержку
+                </Button>
+              </div>
+              
+              <Alert className="border-messenger-blue/20 bg-messenger-blue/10">
+                <Icon name="Info" size={16} />
+                <AlertDescription className="text-sm">
+                  Время ответа службы поддержки: до 2 часов в рабочее время
+                </AlertDescription>
+              </Alert>
             </CardContent>
           </Card>
         </div>
