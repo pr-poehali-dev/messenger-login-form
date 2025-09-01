@@ -32,7 +32,7 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-blue-100 flex items-center justify-center p-4">
+    <div className="min-h-screen bg-gradient-to-br from-blue-100/70 via-white via-blue-50/20 to-blue-200/40 flex items-center justify-center p-4">
       <div className="w-full max-w-6xl grid lg:grid-cols-3 gap-8">
         
         {/* Основная форма логина */}
