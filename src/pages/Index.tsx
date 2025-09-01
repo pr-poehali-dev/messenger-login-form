@@ -42,8 +42,9 @@ const Index = () => {
               <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-r from-primary to-blue-600 rounded-full flex items-center justify-center">
                 <Icon name="MessageCircle" size={32} className="text-white" />
               </div>
-              <CardTitle className="text-2xl font-bold text-gray-900">Messenger</CardTitle>
-              <p className="text-gray-600 text-sm">Войдите в свой аккаунт</p>
+              <CardTitle className="text-2xl font-bold text-gray-900">ГБУЗ МИАЦ</CardTitle>
+              <p className="text-gray-600 text-sm">Войдите в аккаунт, используя 
+учётную запись ActiveDirectory</p>
             </CardHeader>
             
             <CardContent className="space-y-6">
@@ -162,8 +163,8 @@ const Index = () => {
                 </Avatar>
                 <div>
                   <p className="font-medium">Пользователь</p>
-                  <p className="text-sm text-gray-500">user@example.com</p>
-                  <p className="text-xs text-gray-400">ООО "Технологии Будущего"</p>
+                  <p className="text-sm text-gray-500">Организация</p>
+                  <p className="text-xs text-gray-400">ГБУЗ "МИАЦ"</p>
                 </div>
               </div>
               
